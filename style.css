@@ -31,3 +31,11 @@ nav a:hover {
   background-color: #dc2626; /* Warna Latar Merah saat di-hover (Bisa diganti ketik 'red') */
   color: #ffffff; /* Teks otomatis berubah putih saat latar jadi merah */
 }
+.status-ujian {
+  color:#16a34a;
+  font-weight: bold;
+  padding: 8px;
+  background-color: #f3f4f6;
+  border-radius: 4px;
+}
+ 
