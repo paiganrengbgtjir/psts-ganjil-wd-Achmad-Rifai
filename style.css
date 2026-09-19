@@ -1,0 +1,33 @@
+/* Poin Konten Utama */
+.wadah-konten {
+  max-width: 760px; 
+  margin: 0 auto;
+}
+
+/* Poin c. Header Styling - Warna Latar Biru */
+header {
+  background-color: #1e3a8a; /* Warna Biru Navy (Bisa diganti ketik 'blue') */
+}
+
+/* Poin d. Card Design (.kartu-item) */
+.kartu-item {
+  background-color: #ffffff; 
+  padding: 16px;             
+  margin-bottom: 15px;       
+  border-radius: 8px;        
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  
+  /* Border samping kiri menggunakan warna tema Biru */
+  border-left: 4px solid #1e3a14; /* Garis Biru tebal di kiri */
+}
+
+/* Poin e. Hover Navigasi - Berubah menjadi Merah saat disentuh */
+nav a {
+  color: #333333; /* Warna teks awal sebelum di-hover */
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+nav a:hover {
+  background-color: #dc2626; /* Warna Latar Merah saat di-hover (Bisa diganti ketik 'red') */
+  color: #ffffff; /* Teks otomatis berubah putih saat latar jadi merah */
+}
